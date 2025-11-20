@@ -1,15 +1,15 @@
 # Task_04_DA
-📞 Telecom Customer Churn Prediction
+Telecom Customer Churn Prediction
 
 Machine learning project to predict whether a customer is likely to churn based on behavior, usage, and service attributes.
 This repository includes data preprocessing, EDA, model training, evaluation, feature importance, and saved ML models ready for deployment.
 
-🎯 Project Objective
+Project Objective
 
 The goal of this project is to predict customer churn for a telecom company using machine learning techniques.
 Churn prediction helps businesses identify customers likely to leave and take proactive retention measures.
 
-🧠 Key Steps in the Pipeline
+Key Steps in the Pipeline
 1. Data Loading & Cleaning
 
 Missing values in TotalCharges handled
@@ -48,7 +48,8 @@ Test-set performance:
 Model	Accuracy	AUC Score
 Random Forest	0.79	0.814
 Logistic Regression	0.80	0.836
-🔍 Top 10 Important Features (RandomForest)
+
+Top 10 Important Features (RandomForest)
 
 TotalCharges
 
@@ -70,13 +71,13 @@ SeniorCitizen
 
 OnlineBackup (No)
 
-📘 Jupyter Notebook
+Jupyter Notebook
 
 The entire workflow (cleaning → preprocessing → training → model saving → inference) is documented in:
 
-👉 churn_notebook.ipynb
+churn_notebook.ipynb
 
-🚀 How to Run the Project
+How to Run the Project
 1. Install dependencies
 pip install -r requirements.txt
 
